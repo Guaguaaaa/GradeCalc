@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grade Calculator</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- favicon -->
+  <link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+  <link rel="shortcut icon" href="/favicon/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+  <meta name="apple-mobile-web-app-title" content="GradeCalc" />
+  <link rel="manifest" href="/favicon/site.webmanifest" />
+</head>
+<body>
+
+<div class="noise-overlay"></div>
+
+<div class="layout-grid">
+  <div class="panel-left">
+    <header class="app-header">
+      <div class="brand">
+        <div class="logo-mark">G</div>
+        <span class="logo-text">GradeCalc</span>
+      </div>
+      <button id="lang-toggle" class="btn-icon">
+        <span>EN/中</span>
+      </button>
+    </header>
+
+    <div class="intro-block">
+      <h1 data-i18n="title">Grade Calculator</h1>
+      <p data-i18n="subtitle">Plan your academic goals with precision.</p>
+    </div>
+
+    <div class="input-area">
+      <div class="list-header">
+        <span data-i18n="colItem">ITEM</span>
+        <span data-i18n="colWeight">WEIGHT</span>
+        <span data-i18n="colScore">SCORE</span>
+        <span></span>
+      </div>
+
+      <div id="items-list" class="styled-scroll">
+      </div>
+
+      <button id="add-btn" class="btn-dashed" data-i18n="btnAdd">
+        + Add New Item
+      </button>
+    </div>
+
+    <div class="action-footer">
+      <button id="calc-btn" class="btn-hero" data-i18n="btnCalc">
+        Analyze Performance →
+      </button>
+      <div id="error-msg" class="error-msg"></div>
+    </div>
+  </div>
+
+  <div class="panel-right">
+    <div id="results-placeholder" class="placeholder-state">
+      <div class="placeholder-icon">✨</div>
+      <p>Enter your grades to generate report</p>
+    </div>
+
+    <div id="results-content" class="bento-grid hidden">
+    </div>
+
+    <footer class="app-footer">
+      © 2025 GradeCalc. Scientific & Secure.
+    </footer>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
