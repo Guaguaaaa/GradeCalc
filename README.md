@@ -8,7 +8,7 @@
 
 Unlike traditional calculators, GradeCalc features a "Product-Grade" UI with **Bento Grid** layouts and uses a **statistical algorithm (Z-Score & Gap Analysis)** to provide intelligent performance insights rather than just raw numbers.
 
-> **Live Demo:** https://gradecalc.peterguan.com
+> **Live Demo:** https://grade.peterguan.com
 
 ---
 
