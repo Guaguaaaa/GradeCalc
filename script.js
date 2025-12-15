@@ -2,7 +2,7 @@ const translations = {
     en: {
         title: "Grade Calculator",
         subtitle: "Plan your academic goals with precision.",
-        colItem: "ITEM", colWeight: "WEIGHT", colScore: "SCORE",
+        colItem: "ITEM", colWeight: "WEIGHT%", colScore: "SCORE%",
         btnAdd: "+ Add Item", btnCalc: "Analyze Performance →",
         errNoWeight: "Please enter at least one weight.",
         errNot100: "Total weight is {val}%. Calculation will proceed.",
@@ -36,7 +36,7 @@ const translations = {
     zh: {
         title: "成绩计算器",
         subtitle: "科学规划你的学术目标。",
-        colItem: "项目", colWeight: "权重", colScore: "得分",
+        colItem: "项目", colWeight: "权重%", colScore: "得分%",
         btnAdd: "+ 添加项目", btnCalc: "分析成绩 →",
         errNoWeight: "请至少填写一项权重。",
         errNot100: "当前总权重为 {val}%，计算继续。",
