@@ -23,7 +23,7 @@ const translations = {
 
         customTitle: "Goal Simulator",
         lblDesired: "Target Goal:",
-        lblRequired: "Required Final:",
+        lblRequired: "Required Average Grade in Remaining exam:",
         advice: {
             impossible: ["Mathematically impossible without extra credit.", "Unless there's a bonus, this score is unreachable."],
             hugeGap: ["Requires massive improvement from your average ({curr}). A significant challenge.", "Do or die. You need to perform significantly better than usual."],
@@ -56,7 +56,7 @@ const translations = {
 
         customTitle: "目标模拟沙盒",
         lblDesired: "我想要总分:",
-        lblRequired: "Final 需要考:",
+        lblRequired: "剩余考试需要考平均:",
         advice: {
             impossible: ["理论上已无法达到... 除非有额外加分。", "数学上已无可能。"],
             hugeGap: ["需要远超平时的发挥（平时均分 {curr}）。这是一场硬仗。", "目标非常高，需奇迹般的表现。"],
